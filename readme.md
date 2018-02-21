@@ -1,8 +1,16 @@
 # Package
 
 
+## Install
+
+Install package with the following command in bash commandline
+
+```sh
+npm install ./package
+```
 
 ## Usage
+
 This package can be used to add asterisks or grawlix to words. This can be used to censor vulgarity for example.
 
 This can be used in the following three ways:
@@ -29,5 +37,7 @@ vowel.grawlix("vulgarity") // => vulgarity @#$%!&?@#
 vowel.grawlix("vulgarity", "?@?%?@?@?@") // => ?@?%?@?@
 ```
 
+
+## License
 
 This project falls under the [MIT license](license.md).
