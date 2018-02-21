@@ -1,0 +1,16 @@
+# All test related files
+test/actual
+actual
+coverage
+
+# npm files
+node_modules
+npm-debug.log
+
+# temp files
+*.temp
+*.tmp
+
+# dropboxfile
+
+*.dropbox
