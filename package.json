@@ -1,0 +1,28 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Censor vulgar words with asterisks or grawlix.",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "tags": ["censor", "vulgar", "grawlix", "asterisks"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daoneandonly/package.git"
+  },
+  "dependencies":{
+    "repeat-string": "1.6.x",
+    "longest-streak": "2.0.x",
+    "skin-tone": "1.0.x"
+  },
+  "scripts": {
+  "test": "tape test/*.js test/server/*.js" "standard && node my-tests.js"
+  },
+  "author": "Steven \"daoneandonly\" Whitton <stevenawhitton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daoneandonly/package/issues"
+  },
+  "homepage": "https://github.com/daoneandonly/package#readme",
+  "devDependencies": {
+  "tape": "^4.6.3",
+  "standard": "*"
+}
